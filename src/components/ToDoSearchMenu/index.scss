@@ -1,0 +1,109 @@
+.search_menu {
+  background-color: #7faed780;
+  width: 90%;
+  height: max-content;
+  margin: 0 auto 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.search_menu_form {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  }
+}
+
+.search_menu_input {
+  width: 70%;
+  height: 2em;
+  margin: 0;
+  padding-left: 1em;
+  outline: none;
+  border: hidden;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: cursive;
+  @media only screen and (max-width: 480px) {
+    width: 85%;
+    font-size: 15px;
+  }
+}
+
+.search_menu_button {
+  width: 3em;
+  height: 3rem;
+  border: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #1f1187a3;
+  font-size: 17px;
+  &:hover {
+    cursor: pointer;
+    background-color: #12085b;
+  }
+  @media only screen and (max-width: 480px) {
+    margin: 5px;
+    width: 2em;
+    height: 2em;
+    font-size: 15px;
+  }
+}
+
+.finded_item_container {
+  background-color: #7faed780;
+  width: 90%;
+  height: max-content;
+  margin: 0 auto 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.finded_item_text {
+  width: 98%;
+  height: 3rem;
+  margin: 0;
+  padding-left: 1em;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: cursive;
+  background-color: white;
+  text-align: center;
+  @media only screen and (max-width: 480px) {
+    width: 85%;
+    height: 2rem;
+    font-size: 15px;
+  }
+}
+
+.finded_item_button {
+  border: hidden;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  margin: 2px;
+  color: #ffffff;
+  background-color: #1f1187a3;
+  font-size: 15px;
+  font-family: cursive;
+  &:hover {
+    cursor: pointer;
+    background-color: #12085b;
+  }
+  @media only screen and (max-width: 480px) {
+    margin: 5px;
+    width: 3em;
+    height: 3em;
+    font-size: 10px;
+  }
+}

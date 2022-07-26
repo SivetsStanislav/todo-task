@@ -1,0 +1,58 @@
+.main_menu {
+  background-color: #7faed780;
+  width: 90%;
+  height: 5rem;
+  margin: 30px auto 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.main_menu_form {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  }
+}
+
+.main_menu_input {
+  width: 70%;
+  height: 4rem;
+  margin: 0;
+  padding-left: 1em;
+  outline: none;
+  border: hidden;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: cursive;
+  @media only screen and (max-width: 480px) {
+    width: 85%;
+    font-size: 15px;
+  }
+}
+
+.main_menu_button {
+  width: 15%;
+  height: 4rem;
+  border: hidden;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #1f1187a3;
+  font-size: 20px;
+  font-family: cursive;
+  &:hover {
+    cursor: cell;
+    background-color: #12085b;
+  }
+  @media only screen and (max-width: 480px) {
+    margin: 5px;
+    width: 90%;
+    height: 4em;
+    font-size: 15px;
+  }
+}

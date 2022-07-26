@@ -1,0 +1,55 @@
+.update_menu {
+  background-color: #79e68f99;
+  width: 90%;
+  margin: 0 auto 15px;
+  padding: 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.update_menu_form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  }
+}
+
+.update_menu_input {
+  width: 90%;
+  margin-right: 45px;
+  height: 3rem;
+  padding: 10px;
+  outline: none;
+  border: hidden;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: cursive;
+  @media only screen and (max-width: 480px) {
+    width: 85%;
+    margin: 0;
+    height: 2em;
+  }
+}
+
+.update_menu_button {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  border: hidden;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #00a51e;
+  font-size: 16px;
+  &:hover {
+    cursor: pointer;
+    background-color: #0d6219;
+  }
+  @media only screen and (max-width: 480px) {
+    margin: 5px;
+    width: 3em;
+  }
+}

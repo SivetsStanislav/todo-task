@@ -1,0 +1,45 @@
+.footer_container {
+  width: 90%;
+  background-color: #7faed780;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer_button {
+  width: 3em;
+  height: 3em;
+  border: hidden;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #1f1187a3;
+  font-size: 15px;
+  &:hover {
+    cursor: pointer;
+    background-color: #12085b;
+  }
+  @media only screen and (max-width: 760px) {
+    margin: 0;
+    width: 3em;
+    height: 3em;
+    font-size: 10px;
+  }
+}
+
+.footer_info_container {
+  width: 90%;
+  height: max-content;
+  background-color: #7faed780;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_info_text {
+  font-family: cursive;
+  font-size: 15px;
+  color: #0e073f;
+  margin: 5px;
+}
